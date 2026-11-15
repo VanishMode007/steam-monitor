@@ -2,10 +2,10 @@
     "schema":  1,
     "latest":  {
                    "stable":  {
-                                  "sha256":  "ebf46f84606e4dc49ebd551f6621f7ca5c19927d572a49f0aa4925ce9414096c",
-                                  "steam_version":  1794424036,
+                                  "sha256":  "669fa08e259277fbf5a1dfe15ce88afe734e89151194304b44d92f418dcc985b",
+                                  "steam_version":  1794536281,
                                   "status":  "full",
-                                  "tested_at":  "2026-11-12T22:23:35Z"
+                                  "tested_at":  "2026-11-15T16:08:27Z"
                               }
                },
     "osl":  {
@@ -14,6 +14,18 @@
                 "protobuf":  true
             },
     "builds":  [
+                   {
+                       "sha256":  "669fa08e259277fbf5a1dfe15ce88afe734e89151194304b44d92f418dcc985b",
+                       "channel":  "stable",
+                       "steam_version":  1794536281,
+                       "status":  "full",
+                       "tested_at":  "2026-11-15T16:08:27Z",
+                       "osl":  {
+                                   "pattern":  true,
+                                   "ipc":  true,
+                                   "protobuf":  true
+                               }
+                   },
                    {
                        "sha256":  "ebf46f84606e4dc49ebd551f6621f7ca5c19927d572a49f0aa4925ce9414096c",
                        "channel":  "stable",
@@ -75,5 +87,5 @@
                                }
                    }
                ],
-    "updated_at":  "2026-11-12T22:23:35Z"
+    "updated_at":  "2026-11-15T16:08:27Z"
 }
